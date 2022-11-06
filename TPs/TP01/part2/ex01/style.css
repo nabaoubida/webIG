@@ -1,0 +1,32 @@
+.box {
+    width: 200px;
+    height: 200px;
+    border : 1px solid black;
+}
+
+.container {
+    width: calc(100% - 80px);
+    margin: 40px;
+    display: inline-block;
+}
+
+.box.red {
+    background-color:red;
+}
+.box.blue {
+    background-color:blue;
+}
+.box.yellow {
+    background-color:yellow;
+}
+.box.green {
+    background-color:green;
+}
+
+.box.float-right {
+    float: right;
+}
+
+.box.float-left {
+    float: left;
+}
